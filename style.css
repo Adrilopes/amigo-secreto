@@ -1,0 +1,160 @@
+:root {
+    --color-primary: #2B2521;        /* Fundo principal (dark, dramático) */
+    --color-secondary: #3B3430;      /* Fundo da seção (dark contrast) */
+    --color-tertiary: #8C7B6A;       /* Botão adicionar (marrom envelhecido) */
+    --color-button: #7b121a;         /* Botão sortear (vinho queimado) */
+    --color-button-hover: #7b121b95;   /* Hover botão (vinho claro) */
+    --color-text: #D8CFC8;           /* Texto (bege claro, elegante) */
+    --color-white: #F3ECE5;          /* Título principal (quase branco vintage) */
+    --color-border: #6D625B;         /* Borda (marrom acinzentado) */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100; 
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+/* Seção de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(181, 25, 25, 0.38); 
+}
+
+/* Títulos */
+.main-title {
+    font-size: 48px;
+    color: var(--color-white);
+    text-shadow: 0 0 10px rgba(234, 234, 234, 0.3); 
+}
+
+.section-title {
+    font-size: 32px;
+    color: var(--color-white);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contêineres de entrada e botão */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid var(--color-border);
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+}
+
+.input-name::placeholder {
+    color: var(--color-tertiary);
+}
+
+.button-container {
+    width: 300px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Estilos de botão */
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: 1px solid var(--color-border);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-add {
+    background-color: var(--color-tertiary);
+    color: var(--color-primary);
+    border-radius: 0 25px 25px 0;
+    border-left: none;
+}
+
+.button-add:hover {
+    background-color: #7a7a7a;
+    transform: scale(1.05);
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+}
+
+.button-draw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+
+.button-draw img {
+    margin-right: 20px; 
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+    transform: scale(1.05);
+}
