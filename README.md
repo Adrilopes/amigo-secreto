@@ -8,6 +8,9 @@ Este é um projeto simples e divertido para sorteio de **Amigo Secreto**, desenv
 - 👥 **Visualizar lista**: Os nomes adicionados aparecem automaticamente em uma lista visível na página.
 - 🎲 **Sortear amigo**: Ao clicar em "Sortear Amigo", o sistema escolhe um nome da lista de forma aleatória e exibe o resultado.
 
+## 🖼️ Prévia do Projeto
+
+<img width="100%" alt="Imagem do Projeto Amigo Secreto" src="https://github.com/user-attachments/assets/f74b486a-31cd-4e22-855f-ca6f9b97d568" />
 
 ## 🗂️ Estrutura do Projeto
 
@@ -35,3 +38,9 @@ challenge-amigo-secreto/
 
 2.	Abra o arquivo index.html em seu navegador.
 3.	Insira os nomes desejados e realize o sorteio!
+
+## 🌐 Projeto Online
+
+Este projeto está publicado no GitHub Pages e pode ser acessado por qualquer navegador:
+
+🔗 [Clique aqui para ver o Amigo Secreto em funcionamento](https://adrilopes.github.io/amigo-secreto/)
