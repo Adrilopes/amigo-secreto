@@ -5,19 +5,24 @@ Este é um projeto simples e divertido para sorteio de **Amigo Secreto**, desenv
 ## 📌 Funcionalidades
 
 - ✅ **Adicionar nomes**: Insira o nome de amigos por meio de um campo de texto e clique em "Adicionar".
-- ⚠️ **Validação**: Caso o campo esteja vazio, um alerta será exibido solicitando um nome válido.
 - 👥 **Visualizar lista**: Os nomes adicionados aparecem automaticamente em uma lista visível na página.
 - 🎲 **Sortear amigo**: Ao clicar em "Sortear Amigo", o sistema escolhe um nome da lista de forma aleatória e exibe o resultado.
 
-## 📂 Estrutura do Projeto
+
+## 🗂️ Estrutura do Projeto
+
+<pre>	
 challenge-amigo-secreto/
 │
-├── index.html          # Estrutura principal da aplicação
-├── style.css           # Estilização visual do projeto
-├── app.js              # Lógica JavaScript (adição, validação e sorteio)
-└── assets/
-├── amigo-secreto.png           # Imagem ilustrativa
-└── play_circle_outline.png     # Ícone de sorteio
+├── index.html              # Estrutura principal da aplicação
+├── style.css               # Estilização visual do projeto
+├── app.js                  # Lógica JavaScript (adição, validação e sorteio)
+├── assets/
+│   ├── amigo-secreto.png           # Imagem ilustrativa
+│   └── play_circle_outline.png     # Ícone de sorteio
+
+</pre>
+
 
 ## 🚀 Como usar
 
